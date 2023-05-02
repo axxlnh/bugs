@@ -1,0 +1,49 @@
+
+/* thum */
+.thum-bg {
+    overflow: hidden;
+}
+
+.thum-bg img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    transition: 250ms;
+    /* 
+    object-fit
+    이미지나 비디오 태그에 사용하는 이미지 사이즈 설정요소 css3
+    background-size: cover,contain과 같은 기능
+    익스는 지원되지 않음
+
+    fill:(기본값) 주어진 너비와 높이에 딱 맞도록 설정 비율은 유지되지 않음
+
+    cover: 가로세로 비율 유지한 채 사이즈 조절
+    (비율은 맞춰주지만 컨테이너의 사이즈의 맞지 않는다면 사진이 잘린다.)
+    
+    contain: 가로세로 비율 유지한 채 사이즈 조절
+    (비율을 맞춰주면서 컨테이너의 사이즈랑 맞지 않는다면 영역을 비워 남긴다.)
+    
+    none: 아무것도 하지 않고 이미지 사이즈 유지
+    scale-down: none이랑 contain 중에서 적정한 것을 찾아서 적용
+    */
+}
+
+.thum-bg:hover img {
+    transform: scale(1.02);
+}
+
+/* sp */
+.gnb .menu .search_icon::after,
+.gnb .menu .login_icon::after,
+.gnb .menu .chart_icon::after,
+.gnb .menu .newMusic_icon::after,
+.gnb .menu .u4-icon::after,
+.gnb .menu .genre_icon::after,
+.gnb .menu .theme_icon::after,
+.gnb .menu .feed_icon::after,
+.visual #prev_btn::after,
+.visual #next_btn::after  {
+        background-image: url('../images/sp-icon_2x.png');
+        background-repeat: no-repeat;
+        background-size: 729px;
+    }
