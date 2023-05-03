@@ -75,6 +75,16 @@ html {
     margin-top: 20px;
 }
 
+.gnb .menu .login_icon:hover,
+.gnb .menu .chart_icon:hover,
+.gnb .menu .newMusic_icon:hover,
+.gnb .menu .u4-icon:hover,
+.gnb .menu .genre_icon:hover,
+.gnb .menu .theme_icon:hover,
+.gnb .menu .feed_icon:hover {
+    background-color: #ff3c28;
+}
+
 .gnb .menu .chart_icon::after {
     content: "";
     display: inline-block;

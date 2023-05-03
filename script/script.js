@@ -23,7 +23,7 @@ $(document).ready(function () {
   
   function nextSlide() {
     var currentP = visualList.position().left;
-    visualList.stop().animate({ 'left': currentP - visualImgWidth }, 800, function () {
+    visualList.stop().animate({ 'left': currentP - visualImgWidth }, 900, function () {
       visualList.children().first().appendTo(visualList);
       visualList.css({ 'left': -visualImgWidth });
     })
@@ -31,7 +31,7 @@ $(document).ready(function () {
 
   function prevSlide() {
     var currentP = visualList.position().left;
-    visualList.stop().animate({ 'left': currentP + visualImgWidth }, 800, function () {
+    visualList.stop().animate({ 'left': currentP + visualImgWidth }, 900, function () {
       visualList.children().last().prependTo(visualList);
       visualList.css({ 'left': -visualImgWidth })
     })

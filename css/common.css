@@ -42,7 +42,8 @@
 .gnb .menu .theme_icon::after,
 .gnb .menu .feed_icon::after,
 .visual #prev_btn::after,
-.visual #next_btn::after  {
+.visual #next_btn::after,
+.music-player .controls .prev::after  {
         background-image: url('../images/sp-icon_2x.png');
         background-repeat: no-repeat;
         background-size: 729px;
